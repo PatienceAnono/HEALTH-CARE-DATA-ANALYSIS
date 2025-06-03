@@ -1,3 +1,4 @@
+
 # Healthcare Data Analysis Project
 
 ## Project Overview
@@ -10,38 +11,6 @@ This project explores clinical visit data from a healthcare provider to extract 
 - Assess patient satisfaction using Net Promoter Score (NPS)
 - Identify common diagnoses and explore trends across various dimensions
 
-## Dataset Description
-The project is based on three related datasets:
-
-# 🏥 Healthcare Data Analysis Project
-
-## 📌 Project Overview
-
-This project explores clinical visit data from a healthcare provider to extract actionable insights that support strategic decision-making, enhance patient care, and improve financial sustainability.
-
-**Objectives:**
-- Analyze visit patterns by time, location, and type (in-person vs telemedicine)
-- Evaluate billing trends across payment methods (Cash vs Insurance)
-- Assess patient satisfaction using Net Promoter Score (NPS)
-- Identify common diagnoses and explore trends across various dimensions
-
----
-
-## 🧾 Dataset Description
-
-The project is based on three related datasets:
-
-# 🏥 Healthcare Data Analysis Project
-
-## 📌 Project Overview
-
-This project explores clinical visit data from a healthcare provider to extract actionable insights that support strategic decision-making, enhance patient care, and improve financial sustainability.
-
-**Objectives:**
-- Analyze visit patterns by time, location, and type (in-person vs telemedicine)
-- Evaluate billing trends across payment methods (Cash vs Insurance)
-- Assess patient satisfaction using Net Promoter Score (NPS)
-- Identify common diagnoses and explore trends across various dimensions
 
 ## Dataset Description
 
