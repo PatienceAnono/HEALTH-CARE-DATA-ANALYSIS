@@ -1,55 +1,61 @@
 
-# Healthcare Data Analysis Project
+# 🩺 Healthcare Data Analysis
 
-## Project Overview
+## 📘 Project Overview
+This project focuses on analyzing healthcare data to uncover key insights about patient visits, medical center performance and satisfaction trends.  
+By exploring metrics such as **visit frequency**, **Net Promoter Score (NPS)** and **center-level performance**, the goal is to support data-driven decision-making in healthcare management.
 
-This project explores clinical visit data from a healthcare provider to extract actionable insights that support strategic decision-making, enhance patient care and improve financial sustainability.
+---
 
-**Objectives:**
-- Analyze visit patterns by time, location, and type (in-person vs telemedicine)
-- Evaluate billing trends across payment methods (Cash vs Insurance)
-- Assess patient satisfaction using Net Promoter Score (NPS)
-- Identify common diagnoses and explore trends across various dimensions
+## 🎯 Objectives
+- Identify trends in patient visits and service categories  
+- Analyze satisfaction levels using NPS scores  
+- Evaluate performance variations across different medical centers  
+- Provide actionable recommendations to improve service quality and efficiency  
 
+---
 
-## Dataset Description
+## 🧠 Approach
+1. **Data Cleaning:** Removed duplicates, handled missing values, and standardized formats.  
+2. **Exploratory Analysis:** Visualized visit patterns, center performance, and NPS distributions.  
+3. **Statistical Insights:** Conducted bivariate and trend analysis for meaningful interpretation.  
+4. **Visualization:** Created dashboards and charts in Python and Excel for stakeholder reporting.  
 
-The project is based on three related datasets:
+---
 
-| Table            | Description                                                  |
-|------------------|--------------------------------------------------------------|
-| `Visit Table`    | Records each clinical visit, including time, type, and location |
-| `Billing Table`  | Tracks invoiced amounts per visit (may have multiple entries) |
-| `Diagnosis Table`| Contains diagnosis codes linked to visits                    |
-
-### Key Features:
-- `VisitCode`: Unique identifier for each clinical visit  
-- `VisitDateTime`: Date and time of the visit  
-- `MedicalCenter`: Name of the medical center  
-- `VisitCategory`: Type of visit (In-person or Telemedicine)  
-- `Payor`: Payment method (Cash or Insurance)  
-- `Amount`: Billed amount per invoice  
-- `NPS Score`: Patient satisfaction rating (0–10)  
-- `Diagnosis`: Medical condition identified during the visit  
+## 🧰 Tools & Technologies
+- **Python (Pandas, Matplotlib, Seaborn)**    
 
 
-## Exploratory Data Analysis (EDA)
+---
 
-### Key Insights:
-- In-person visits dominate but virtual visits are growing
-- Insurance visits yield higher average revenue per visit
-- Certain medical centers have higher NPS scores
-- Most common diagnoses: [e.g. URTI, Malaria, Hypertension]
+## 📈 Key Insights
+- Most visits occurred during weekdays, with certain centers showing higher traffic.  
+- The **average NPS score** indicated overall positive experiences, though a few centers exceeded the ideal 1–10 range, prompting data review.  
+- Trends suggested opportunities for improving consistency in service quality across centers.  
 
-## Recommendations
+---
 
-- Allocate more staff to high-traffic centers
-- Expand telemedicine services for follow-ups and mild conditions
-- Investigate causes of low NPS in underperforming centers
-- Track diagnosis patterns for better inventory and planning
-              
-## Tools & Technologies
+## 📄 Deliverables
+- [Jupyter Notebook](healthcare_data_analysis.ipynb)  
+- [Analysis Report (PDF)](healthcare_report.pdf)  
+- [Excel Dashboard](healthcare_analysis.xlsx)
 
+---
+
+## 💡 Impact
+The analysis provides data-backed insights that can help healthcare organizations:
+- Optimize patient flow and staff allocation  
+- Improve satisfaction and retention rates  
+- Strengthen data quality monitoring processes  
+
+---
+
+## 👩‍💻 Author
+**Patience Anono**  
+📧 [patienceanonowebbo@gmail.com](mailto:patienceanonowebbo@gmail.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/patience-anono-22ab06176/)  
+🐙 [GitHub](https://github.com/PatienceAnono)
 - Python: `pandas`, `matplotlib`, `seaborn`
 - Jupyter Notebook
 
